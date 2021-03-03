@@ -14,10 +14,11 @@
 }
 
 .empty-box{
-    width: 300px;
+    max-width: 100%;
     height: 250px;
-    background-color: #ccc;
     margin-bottom: 15px;
+    background-color: #ccc;
+    border-radius:10px;
 }
 
 /* Colors */
@@ -39,14 +40,9 @@
 
 /* RESPONSIVE FOR SMALL DEVICE 768PX IN SU */
 
-@media screen and (min-width: 768px){
 
-}
 
 /* RESPONSIVE FOR MEDIUM DEVICE E DESKTOPS */
-@media screen and (min-width:992px){
-
-}
 
 
 
