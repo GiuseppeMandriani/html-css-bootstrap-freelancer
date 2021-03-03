@@ -14,7 +14,7 @@
 }
 
 .empty-box{
-    width: 350px;
+    width: 300px;
     height: 250px;
     background-color: #ccc;
     margin-bottom: 15px;
@@ -40,7 +40,7 @@
 /* RESPONSIVE FOR SMALL DEVICE 768PX IN SU */
 
 @media screen and (min-width: 768px){
-    
+
 }
 
 
