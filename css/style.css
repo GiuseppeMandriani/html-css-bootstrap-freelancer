@@ -1,13 +1,23 @@
 /* GENERAL */
 
+/* body{
+    color: #fff;
+} */
+
 
 
 
 /* UTILITIES */
 
 .box{
-    color: #fff;
     line-height:80px
+}
+
+.empty-box{
+    width: 350px;
+    height: 250px;
+    background-color: #ccc;
+    margin-bottom: 15px;
 }
 
 /* Colors */
@@ -19,6 +29,15 @@
 .bg-tp-hero-about{
     background-color:#1abc9c;
 }
+
+.bg-tp-foot{
+    background-color: #3a546d;
+}
+
+.color-ptf-cont-h3{
+    color: black;
+}
+
 
 
 
