@@ -24,18 +24,23 @@
 
 .bg-head-foot{
     background-color: #3a546d;
+    /* background header e bottom footer */
 }
 
 .bg-tp-hero-about{
     background-color:#1abc9c;
+    /* background top hero e about */
 }
 
 .bg-tp-foot{
     background-color: #3a546d;
+    /* background top footer */
 }
 
-.color-ptf-cont-h3{
-    color: black;
+/* RESPONSIVE FOR SMALL DEVICE 768PX IN SU */
+
+@media screen and (min-width: 768px){
+    
 }
 
 
