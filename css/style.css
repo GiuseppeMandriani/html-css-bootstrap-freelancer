@@ -36,12 +36,29 @@ body{
 
 
 /* Positions margin e padding */
+
+/* margin */
+
+.mg-rg-xs{
+    margin-right: 5px;
+}
+
 .mg-bt-sm{
     margin-bottom: 15px;
 }
 
 .mg-tp-md{
     margin-top: 20px;
+}
+
+/* padding */
+
+.pd-tp-sm{
+    padding-top:20px;
+}
+
+.pd-bt-sm{
+    padding-bottom:20px;
 }
 
 .pd-tp-md{
@@ -77,6 +94,14 @@ body{
     border: 1px solid;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+
+/* Buttons */
+
+.btn-empty{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid ;
 }
 
 
