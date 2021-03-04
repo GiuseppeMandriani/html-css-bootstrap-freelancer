@@ -3,6 +3,7 @@
 body{
     padding-top:70px;
     /* utilizzo padding per nav-fixed ,consiglio 70px */
+    color: #fff;
 }
 
 
@@ -42,9 +43,13 @@ body{
 }
 
 
-/* Positions */
+/* Positions margin e padding */
 .mg-tp{
     margin-top: 20px;
+}
+
+.pd-tp-md{
+    padding-top:50px;
 }
 
 
@@ -72,12 +77,19 @@ body{
 
 /* faccio modifiche per allinearlo al logo e cambio
 alcune caratteristiche */
+
 .main-header .ta-nav-right > li > a{
     line-height: 80px;
     padding: 0 15px;
     color: #fff;
     text-transform: uppercase;
     transition: background-color .3s;
+}
+
+/* HERO */
+
+.top-hero img{
+    width: 250px;
 }
 
 
