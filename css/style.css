@@ -1,7 +1,11 @@
 /* GENERAL */
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    padding-top:70px;
+    padding-top:80px;
     /* utilizzo padding per nav-fixed ,consiglio 70px */
     color: #fff;
 }
@@ -136,9 +140,16 @@ body{
 /* Buttons */
 
 .btn-empty{
+    min-width: 80px;
+    padding: 10px;
+    font-size:14px;
+    border: 1px solid;
+    transition: background .3s;
+}
+
+.btn-download-send{
     color: #fff;
-    background-color: transparent;
-    border: 1px solid ;
+    background-color: #1abc9c;
 }
 
 .btn-social{
@@ -151,8 +162,42 @@ body{
 
 .btn-copy{
     color: #fff;
-    text-decoration: none;
 }
+
+.hm-link{
+    color: #1abc9c;
+    margin-left: 3px;
+
+}
+
+/* Hover Buttons */
+
+.btn-download-send:hover{
+    color: #fff;
+    background-color: #0aa384;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+
+.main-header .ta-nav-right > li > a:hover{
+    color:#1abc9c;
+    border-bottom: 1px solid #fff;
+}
+
+.tp-foot .social-btn > li > a:hover{
+    color:#1abc9c;
+    border: 1px solid #1abc9c;
+}
+
+.hm-link:hover{
+    color: #0aa384;
+}
+
+.btn-copy:hover{
+    color: #fff;
+}
+
+
 
 
 
@@ -266,6 +311,7 @@ alcune caratteristiche */
     border: 1px solid;
     border-radius:50%;
     line-height:40px;
+    transition: .4s;
 }
 
 /* Bottom Footer */
