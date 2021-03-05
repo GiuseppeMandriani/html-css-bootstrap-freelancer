@@ -208,11 +208,29 @@ alcune caratteristiche */
     display: block;
 }
 
-/* Contact */
+/* Contact Form */
 
 .contact{
     color:#2c3e50 ;
 }
+
+/* Form */
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form textarea{
+    height: 15px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.registration-form textarea{
+    height: 80px;
+}
+
 
 
 
