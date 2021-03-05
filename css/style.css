@@ -11,8 +11,6 @@ body{
 }
 
 
-
-
 /* UTILITIES */
 
 /* Colors */
@@ -354,6 +352,8 @@ alcune caratteristiche */
 
 @media screen and (min-width:992px){
 
+    /* capire perch+ si sposta dal centro */
+
 
     .box-link:hover i{
         animation: slow-rotate 1s linear forwards;
@@ -362,7 +362,10 @@ alcune caratteristiche */
     .box-link:hover .Layover{
         filter: opacity(.5);
     }
-
+    .social-btn li a:hover{
+        transform:scale(1.5)
+    }
+    
 @keyframes slow-rotate{
     0%{
         /* top: 50%;
@@ -387,15 +390,9 @@ alcune caratteristiche */
     }
 }
 
-.social-btn li a:hover{
-    transform:scale(1.5)
 }
 
-
-
-
-
-}
+/* Capire Active e Animazioni */
 
 
 
