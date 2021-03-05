@@ -28,10 +28,18 @@ body{
     /* background top footer */
 }
 
+.txt-col-green{
+    color: #1abc9c;
+}
+
 /* Text */
 
 .upper{
     text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
 }
 
 
@@ -230,6 +238,10 @@ alcune caratteristiche */
 .registration-form textarea{
     height: 80px;
 }
+
+
+/* FOOTER */
+
 
 
 
