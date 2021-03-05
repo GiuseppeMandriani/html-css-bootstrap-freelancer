@@ -149,6 +149,11 @@ body{
     color: #fff;
 }
 
+.btn-copy{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 
 /* HEADER */
@@ -254,14 +259,21 @@ alcune caratteristiche */
 
 .social-btn li a{
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     color: #fff;
-    font-size:18px;
+    font-size:16px;
     border: 1px solid;
     border-radius:50%;
-    line-height:50px;
+    line-height:40px;
 }
+
+/* Bottom Footer */
+.bt-foot{
+    padding: 20px;
+}
+
+
 
 
 
