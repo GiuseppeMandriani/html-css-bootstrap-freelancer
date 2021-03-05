@@ -69,32 +69,50 @@ body{
     padding-bottom: 50px;
 }
 
-/* Icons */
+/* Icons e Divider*/
 
-.stars{
+.star-divider{
+    width:30%;
     font-size:35px;
-    /* Capire perche le linee sotto i 420 vanno a capo */
+    vertical-align: middle;
 }
 
-.stars::before{
+.divider{
+    width: 300px;
+    margin: 15px auto;
+}
+
+.divider::before{
     content: "";
     display: inline-block;
-    width: 150px;
-    height: 1px;
+    width: 30%;
+    height: 2px;
     border: 1px solid ;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    background-color:#fff;
 }
 
-.stars::after{
+.divider::after{
     content: "";
     display: inline-block;
-    width: 150px;
-    height: 1px;
+    width: 30%;
+    height: 2px;
     border: 1px solid;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    background-color:#fff;
 }
+
+.divider.blue{
+    color: #2c3e50;
+}
+
+.divider.blue::before{
+    background-color:#2c3e50;
+}
+
+.divider.blue::after{
+    background-color:#2c3e50;
+
+}
+
 
 /* Buttons */
 
@@ -156,7 +174,7 @@ alcune caratteristiche */
     color: #2c3e50;
 }
 
-/* About */
+
 
 
 
