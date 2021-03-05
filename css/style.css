@@ -201,7 +201,7 @@ body{
 
 .main-header .ta-nav-right > li > a:hover{
     color:#1abc9c;
-    border-bottom: 1px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 
 .tp-foot .social-btn > li > a:hover{
@@ -218,7 +218,15 @@ body{
 }
 
 
+/* Focus */
 
+
+
+
+.registration-form textarea:focus{
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+}
 
 
 /* HEADER */
@@ -288,6 +296,7 @@ alcune caratteristiche */
     top: 0;
     left: 0;
     background-color:#154015a1;
+    transition: .4s;
 }
 
 .box-link:hover i{
@@ -305,8 +314,9 @@ alcune caratteristiche */
 .registration-form input[type="text"],
 .registration-form input[type="email"],
 .registration-form textarea{
-    height: 15px;
-    font-size: 18px;
+    height: 25px;
+    font-size: 14px;
+    padding-bottom: 5px;
     border: 0;
     border-bottom: 1px solid #ccc;
     border-radius: 0;
@@ -314,7 +324,7 @@ alcune caratteristiche */
 }
 
 .registration-form textarea{
-    height: 80px;
+    height: 100px;
 }
 
 
@@ -337,6 +347,54 @@ alcune caratteristiche */
 /* Bottom Footer */
 .bt-foot{
     padding: 20px;
+}
+
+
+/* Cambiamenti e animazioni per Desktop */
+
+@media screen and (min-width:992px){
+
+
+    .box-link:hover i{
+        animation: slow-rotate 1s linear forwards;
+    }
+
+    .box-link:hover .Layover{
+        filter: opacity(.5);
+    }
+
+@keyframes slow-rotate{
+    0%{
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+        transform:rotate(0)
+    }
+
+    50%{
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+        transform: rotate(180deg);
+    }
+
+    100%{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: rotate(360deg);
+    }
+}
+
+.social-btn li a:hover{
+    transform:scale(1.5)
+}
+
+
+
+
+
 }
 
 
