@@ -32,7 +32,7 @@ body{
     /* background top footer */
 }
 
-.txt-col-green{
+.green{
     color: #1abc9c;
 }
 
@@ -168,6 +168,26 @@ body{
     color: #1abc9c;
     margin-left: 3px;
 
+}
+
+/* hamburger */
+
+.navbar-inverse .navbar-toggle {
+    transition: .3s;
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color:#1abc9c;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+    background-color:transparent;
+    border-color: #1abc9c;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar{
+    background-color: #fff;
 }
 
 /* Hover Buttons */
