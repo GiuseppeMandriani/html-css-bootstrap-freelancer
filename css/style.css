@@ -141,6 +141,14 @@ body{
     border: 1px solid ;
 }
 
+.btn-social{
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%; */
+    border: 1px solid #fff;
+    color: #fff;
+}
+
 
 
 /* HEADER */
@@ -241,6 +249,19 @@ alcune caratteristiche */
 
 
 /* FOOTER */
+
+/* Social media buttons */
+
+.social-btn li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size:18px;
+    border: 1px solid;
+    border-radius:50%;
+    line-height:50px;
+}
 
 
 
