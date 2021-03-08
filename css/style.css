@@ -90,50 +90,23 @@ body{
 .divider{
     width: 300px;
     margin: 15px auto;
-}
-
-.divider::before{
-    content: "";
-    display: inline-block;
-    width: 30%;
-    height: 2px;
-    border: 1px solid ;
-    background-color:#fff;
-}
-
-.divider::after{
-    content: "";
-    display: inline-block;
-    width: 30%;
-    height: 2px;
-    border: 1px solid;
-    background-color:#fff;
+    color: #fff;
 }
 
 .divider.blue{
     color: #2c3e50;
-    text-align: center;
 }
 
-.divider.blue::before{
-    background-color:#2c3e50;
+.divider::before,
+.divider::after{
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 6px;
+    border: 1px solid;
 }
-
-.divider.blue::after{
-    background-color:#2c3e50;
-
-}
-
-.add-icons{
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(255, 255, 255, .8);
-    font-size:60px;
-}
-
 
 /* Buttons */
 
@@ -281,25 +254,37 @@ alcune caratteristiche */
 /* Layover img */
 
 .box-link{
-    display: block;
+    display: inline-block;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.box-link:hover .Layover{
+.box-link .Layover{
+    opacity: 0;
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     background-color:#154015a1;
-    transition: .4s;
+    transition: opacity .4s;
 }
 
-.box-link:hover i{
-    display: block;
+.box-link .Layover i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, .8);
+    font-size:60px;
 }
+
+.box-link:hover .Layover{
+    opacity: 1;
+}
+
+
 
 /* Contact Form */
 
@@ -350,47 +335,7 @@ alcune caratteristiche */
 
 /* Cambiamenti e animazioni per Desktop */
 
-@media screen and (min-width:992px){
 
-    /* capire perch+ si sposta dal centro */
-
-
-    .box-link:hover i{
-        animation: slow-rotate 1s linear forwards;
-    }
-
-    .box-link:hover .Layover{
-        filter: opacity(.5);
-    }
-    .social-btn li a:hover{
-        transform:scale(1.5)
-    }
-    
-@keyframes slow-rotate{
-    0%{
-        /* top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
-        transform:rotate(0)
-    }
-
-    50%{
-        /* top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
-        transform: rotate(180deg);
-    }
-
-    100%{
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transform: rotate(360deg);
-    }
-}
-
-}
 
 /* Capire Active e Animazioni */
 
